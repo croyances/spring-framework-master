@@ -21,6 +21,7 @@ public class MyTest {
 		ApplicationContext applicationContext=new AnnotationConfigApplicationContext(Config.class);
 		UserService userService = applicationContext.getBean(UserService.class);
 		userService.say();
+		System.out.printf("", 1);
 	}
 
 	@Test
